@@ -1,0 +1,119 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+background:#111;
+color:#eee;
+font-family:'Cinzel', serif;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 30px;
+background:#1a1a1a;
+border-bottom:1px solid #333;
+}
+
+.logo{
+font-family:'UnifrakturCook';
+font-size:24px;
+color:#e5e5e5;
+}
+
+nav ul{
+display:flex;
+gap:30px;
+list-style:none;
+}
+
+nav a{
+text-decoration:none;
+color:#ccc;
+}
+
+nav a:hover{
+color:white;
+}
+
+.menu-icon{
+display:none;
+font-size:28px;
+cursor:pointer;
+}
+
+/* HERO */
+
+.hero{
+text-align:center;
+padding:80px 20px;
+}
+
+.hero h1{
+font-size:50px;
+font-family:'UnifrakturCook';
+}
+
+.hero p{
+color:#aaa;
+margin-top:10px;
+}
+
+/* SERVICIOS */
+
+.services{
+text-align:center;
+padding:60px 20px;
+}
+
+.cards{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+margin-top:40px;
+}
+
+.card{
+background:#1c1c1c;
+padding:25px;
+width:220px;
+border:1px solid #333;
+}
+
+.card p{
+color:#aaa;
+font-size:14px;
+}
+
+/* MENU MOVIL */
+
+@media (max-width:768px){
+
+nav ul{
+position:absolute;
+top:60px;
+left:0;
+width:100%;
+background:#1a1a1a;
+flex-direction:column;
+text-align:center;
+display:none;
+padding:20px 0;
+}
+
+nav ul li{
+padding:10px 0;
+}
+
+.menu-icon{
+display:block;
+}
+
+}
