@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
 
 <meta charset="UTF-8">
@@ -13,50 +14,52 @@
 
 <body>
 
-<header>
-
-<h1>Black Crown</h1>
-
-</header>
-
 <nav>
 
-<ul>
+<div class="logo">Black Crown</div>
+
+<div class="menu-icon" onclick="toggleMenu()">☰</div>
+
+<ul id="menu">
+
 <li><a href="index.html">Inicio</a></li>
 <li><a href="servicios.html">Servicios</a></li>
 <li><a href="galeria.html">Galería</a></li>
 <li><a href="contacto.html">Contacto</a></li>
+
 </ul>
 
 </nav>
 
-<section class="section">
+<section class="services">
 
-<h3>Nuestros Servicios</h3>
+<h2>Nuestros Servicios</h2>
 
-<div class="services">
+<div class="cards">
 
 <div class="card">
 <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033">
-<h4>Corte Clásico</h4>
+<h3>Corte Clásico</h3>
 <p>Corte limpio y profesional.</p>
 </div>
 
 <div class="card">
 <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70">
-<h4>Arreglo de Barba</h4>
+<h3>Arreglo de Barba</h3>
 <p>Perfilado moderno.</p>
 </div>
 
 <div class="card">
 <img src="https://images.unsplash.com/photo-1599351431408-125d8c7b6c63">
-<h4>Corte + Barba</h4>
+<h3>Corte + Barba</h3>
 <p>Servicio completo.</p>
 </div>
 
 </div>
 
 </section>
+
+<script src="script.js"></script>
 
 </body>
 </html>
