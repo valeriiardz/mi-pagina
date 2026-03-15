@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
 
 <meta charset="UTF-8">
@@ -15,35 +16,56 @@
 
 <body>
 
-<header>
-
-<h1>Black Crown</h1>
-<p>Barbería clásica · estilo moderno</p>
-
-</header>
-
 <nav>
 
-<ul>
+<div class="logo">Black Crown</div>
+
+<div class="menu-icon" onclick="toggleMenu()">☰</div>
+
+<ul id="menu">
+
 <li><a href="index.html">Inicio</a></li>
 <li><a href="servicios.html">Servicios</a></li>
 <li><a href="galeria.html">Galería</a></li>
 <li><a href="contacto.html">Contacto</a></li>
+
 </ul>
 
 </nav>
 
-<section class="hero">
+<header class="hero">
 
-<h2>Cortes clásicos y modernos para hombres con estilo</h2>
+<h1>Black Crown Barbería</h1>
+<p>Cortes clásicos y modernos</p>
+
+</header>
+
+<section class="services">
+
+<h2>Servicios</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Corte</h3>
+<p>Corte profesional moderno.</p>
+</div>
+
+<div class="card">
+<h3>Barba</h3>
+<p>Perfilado de barba.</p>
+</div>
+
+<div class="card">
+<h3>Corte + Barba</h3>
+<p>Servicio completo.</p>
+</div>
+
+</div>
 
 </section>
 
-<footer>
-
-<p>© 2026 Black Crown Barbería</p>
-
-</footer>
+<script src="script.js"></script>
 
 </body>
 </html>
